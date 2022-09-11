@@ -22,6 +22,8 @@ import Animals.*;
                 animalsArr[i].swim(15);
             }
 
+            System.out.println("test for Git Hub");
+
         }
     }
 
