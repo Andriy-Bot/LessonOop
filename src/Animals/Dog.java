@@ -9,11 +9,12 @@ public class Dog extends Animals {
     }
 
     public Dog (String name,int dispersionPercent){
-        super(name,500,20,dispersionPercent);
+        super(name,500,20,dispersionPercent, false,15);
         animalCount++;
     }
 
-    public static int getAnimalCount() {
+    public int getAnimalCount() {
         return animalCount;
     }
 }
+
