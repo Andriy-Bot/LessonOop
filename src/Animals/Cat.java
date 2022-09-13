@@ -9,7 +9,7 @@ public class Cat extends Animals {
     }
 
     public Cat (String name,int dispersionPercent){
-        super(name,200,0,dispersionPercent);
+        super(name,200,0,dispersionPercent,false,10);
         animalCount++;
     }
 
